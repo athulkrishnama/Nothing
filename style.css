@@ -149,3 +149,24 @@
         font-size: 3rem;
     }
 }
+
+
+/* style for features */
+
+.feature > h2{
+    font-family: NType82;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.feature > p{
+    font-family: NType82;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 992px){
+    .feature > p, .feature > h2{
+        font-size: 1.5rem;
+    }
+}
