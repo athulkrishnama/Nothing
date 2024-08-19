@@ -1,0 +1,60 @@
+/* importing necessary fonts */
+@font-face {
+    font-family: 'LetteraMonoLL Regular';
+    src: url('media/fonts/LetteraMonoLL-Regular.otf');
+}
+
+@font-face {
+    font-family: 'NType82';
+    src: url('media/fonts/NType82-Regular.otf');
+}
+
+@font-face {
+    font-family: 'NType82-bold';
+    src: url('media/fonts/NType82-Headline.otf');
+}
+
+@font-face {
+    font-family: 'Ndot-55';
+    src: url('media/fonts/Ndot-55.otf');
+}
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* removing defalut navbar toggle style */
+
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* navbar brand style */
+
+.navbar-brand{
+    font-family: 'Ndot-55';
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+/* nav link style */
+.nav-link{
+    font-family: NType82-bold;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+/* to add border to nav-items when collpased */
+@media screen and (max-width: 992px) {
+    
+}
+
+
