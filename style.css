@@ -170,3 +170,53 @@
         font-size: 1.5rem;
     }
 }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+/* main input style */
+.mail >  input{
+    background-color: black;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    height: 3rem;
+    /* border-radius: 1rem; */
+}
+
+.mail > input::placeholder{
+    color: white;
+    padding: 1rem;    
+    font-size: 0.9rem;
+    font-family: NType82;
+}
+.mail > input::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+    padding: 1rem;    
+    font-size: 0.9rem;
+    font-family: NType82;
+  }
+.mail > h6{
+    font-size: 0.9rem;
+    font-family: NType82;
+    
+}
+
+/* list styling */
+.list > ul{
+    list-style: none inside;
+    padding-left: 0;
+    font-size: 0.9rem;
+    font-family: NType82;
+}
+
+.list > h6{
+    font-size: 0.9rem;
+    font-family: NType82;
+
+}
+
