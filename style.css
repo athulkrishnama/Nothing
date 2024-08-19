@@ -54,7 +54,57 @@
 
 /* to add border to nav-items when collpased */
 @media screen and (max-width: 992px) {
+    .product-banner{
+        height: 90vh;
+    }
     
 }
 
+/* media to small screen */
+@media screen and(min-width: 992px) {
+    }
 
+
+/* product banner */
+.product-banner{
+    background-position: center;
+    background-size: cover;
+}
+
+.phone2a{
+    background-image: url('media/phone-2a-plus.webp');
+
+}
+
+
+/* vertical product heading */
+
+.product-heading{
+    writing-mode: vertical-lr;
+    font-family: 'Ndot-55';
+    font-weight: 400;
+    font-size: 7.5rem;
+    color: white;
+}
+
+/* phone name */
+.phone-info > h3{
+    font-family: 'NType82-bold';
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.phone-info > p{
+    font-family: NType82-bold;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+/* button */
+.blue-button{
+    background-color: rgb(0, 40, 92);
+    color: white;
+    font-family: NType82-bold;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
