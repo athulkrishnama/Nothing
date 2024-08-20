@@ -220,3 +220,26 @@ footer{
 
 }
 
+
+/* social media section */
+
+.social{
+    background-color: black;
+    color: white;
+}
+
+.links{
+    font-size: 0.9rem;
+    font-family: NType82;
+}
+
+
+.social > .row > p{
+    font-size: 0.9rem;
+    font-family: NType82;
+}
+
+.social-media-div{
+    border-top: 2px solid grey;
+    background-color: black;
+}
