@@ -26,6 +26,14 @@
     box-sizing: border-box;
 }
 
+/* converting nav to sticky */
+.navbar{
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
 /* removing defalut navbar toggle style */
 
 .navbar-toggler{
@@ -110,8 +118,57 @@
 .phone2{
     background-image: url('media/phone2.webp');
 }
-/* vertical product heading */
 
+/* changing background on small screen */
+@media screen and (max-width:992px){
+    .phone2aplus{
+        background-image: url('media/phone-2a-plus-small.webp');
+    
+    }
+    
+    /* cmf */
+    .cmf{
+        background-image: url('media/cmf-small.webp');
+    }
+    
+    /* communnity edition */
+    .community{
+        background-image: url('media/community-small.webp');
+    }
+    
+    /* special edition */
+    .special{
+        background-image: url('media/special-small.webp');
+    }
+    
+    
+    /* phone 2a */
+    .phone2a{
+        background-image: url('media/phone-2a-small.webp');
+    }
+    
+    /* ear */
+    .ear{
+        background-image: url('media/ear-small.webp');
+    }
+    
+    
+    /* ear a */
+    .eara{
+        background-image: url('media/eara-small.webp');
+    }
+    
+    /* glyph */
+    .glyph{
+        background-image: url('media/glyph-small.webp');
+    }
+    
+    /* phone 2 */
+    .phone2{
+        background-image: url('media/phone2-small.webp');
+    }
+}
+/* vertical product heading */
 .product-heading{
     writing-mode: vertical-lr;
     font-family: 'Ndot-55';
