@@ -300,3 +300,9 @@ footer{
     border-top: 2px solid grey;
     background-color: black;
 }
+
+/* hover pointer for list elements*/
+
+.list li:hover{
+    cursor: pointer;
+}
